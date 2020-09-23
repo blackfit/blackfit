@@ -164,13 +164,11 @@
             {
                 "dia": "QUARTA",
                 "series": [
-                    "Avanço alternado no Smith 4x10 C.L",
-                    "Abdução em posição de agachamento C.L",
+                    "Avanço Alternado no Smith 4x10 + Abdução em Posição de Agachamento C.L",
                     "Extensão de quadril em pé no. Cross com Caneleira 4x10",
-                    "Sumô no LEGG 3x10",
-                    "Sumô com halteres R.P",
+                    "Sumô no LEGG 3x10 + Sumô com halteres R.P",
                     "Glúteo Nadador 3xFalhas Int. 20s",
-                    "Abdução 4x10 com isometria de 3s OBS.1",
+                    "Abdução 4x10 OBS.1",
                     "Glúteo 3 apoios com pernas cruzadas 4x10",
                     "10min caminhada em avanço"
                 ],
@@ -178,7 +176,7 @@
                     "legenda": [
                         "C.L: Cada Lado;",
                         "R.P: Repetições parciais o máximo de repetições possíveis;",
-                        "OBS.1: Sempre que chegar no limite de abertura, faz a volta em 5 seg. em todas as repetições;"
+                        "OBS.1: Abdução com isometria de 3s, sempre que chegar no limite de abertura, faz a volta em 5s, todas as repetições;"
                     ],
                     "intervalo": 30,
                     "progresso": 0
