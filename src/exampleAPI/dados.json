@@ -1,0 +1,234 @@
+[
+    {
+        "id": "70203884426",
+        "aluno": "Gutemberg",
+        "semana": [
+            {
+                "dia": "DOMINGO",
+                "series": [
+                    "DIA LIVRE"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "SEGUNDA",
+                "series": [
+                    "30min Esteira",
+                    "Crucifixo 4x12 + 30 pó Chinelos",
+                    "Supino Reto 4x12 + 30 pó Chinelos",
+                    "Poollover 4x12 + 30 pó Chinelos",
+                    "Cross 4x12 + 30 pó Chinelos",
+                    "Supino Inclinado 4x12 + 30 pó Chinelos"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 40,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "TERÇA",
+                "series": [
+                    "Extensora 3x15",
+                    "Hack 3x15",
+                    "Flexora 3x15",
+                    "Legg 3x15",
+                    "Adução 3x15",
+                    "Avanço Búlgaro 3x15",
+                    "Calf alto 4x20",
+                    "Bike 20min"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 40,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "QUARTA",
+                "series": [
+                    "30min Esteira",
+                    "Puxador Pegada Fechada 3x15",
+                    "Puxador Pegada Aberta 3x15",
+                    "Serrote 3x15",
+                    "Peck Deck Inverso 3x15",
+                    "Encolhimento de ombro com halteres 3x15",
+                    "Prancha 5x Max Tempo"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 30,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "QUINTA",
+                "series": [
+                    "30min Esteira",
+                    "Rosca Direta + Pulley com barra 3x12",
+                    "Rosca alternada + Pulley com corda 3x12",
+                    "Banco Scott com Barra + Afundo no Banco 3x12",
+                    "Pulley Unilateral Pegada Inversa 3x12",
+                    "Rosca Punho 3x12",
+                    "Rosca Punho Inversa 3x12",
+                    "Prancha 5x Max Tempo"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 30,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "SEXTA",
+                "series": [
+                    "Elevação Frontal com Barra 3x12",
+                    "Desenvolvimento Frontal com Halteres 3x12",
+                    "Elevação Lateral 3x12",
+                    "Desenvolvimento Frontal com Barra 3x12",
+                    "Remada Alta com Barra Pegada na Largura dos Ombros 3x12",
+                    "Prancha 5x Max Tempo"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 30,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "SÁBADO",
+                "series": [
+                    "DIA LIVRE"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": "10318497425",
+        "aluno": "Barbye",
+        "semana": [
+            {
+                "dia": "DOMINGO",
+                "series": [
+                    "DIA LIVRE"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "SEGUNDA",
+                "series": [
+                    "Agachamento 8x10x12x15x20 OBS.1",
+                    "Extensora + Hack 4x12 Int. 40s",
+                    "LEGG 8x10x12x15x20 OBS.1",
+                    "Flexora + Sumô 6x8x10x12"
+                ],
+                "obs": {
+                    "legenda": ["OBS.1: Intervalo só para diminuir o peso;"],
+                    "intervalo": 40,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "TERÇA",
+                "series": [
+                    "30min Esteira",
+                    "20min Bike",
+                    "Panturrilhas Pé 3x20",
+                    "Panturrilhas Sentado 3x20",
+                    "Supino Reto 3x12",
+                    "Remada Sentada 3x12",
+                    "Desenvolvimento frontal com barra 3x12",
+                    "Rosca direta no cross 3x12",
+                    "Pulley com barra 3x12",
+                    "Pracha 5xMax Tempo Int. 20s"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 30,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "QUARTA",
+                "series": [
+                    "Avanço alternado no Smith 4x10 C.L",
+                    "Abdução em posição de agachamento C.L",
+                    "Extensão de quadril em pé no. Cross com Caneleira 4x10",
+                    "Sumô no LEGG 3x10",
+                    "Sumô com halteres R.P",
+                    "Glúteo Nadador 3xFalhas Int. 20s",
+                    "Abdução 4x10 com isometria de 3s OBS.1",
+                    "Glúteo 3 apoios com pernas cruzadas 4x10",
+                    "10min caminhada em avanço"
+                ],
+                "obs": {
+                    "legenda": [
+                        "C.L: Cada Lado;",
+                        "R.P: Repetições parciais o máximo de repetições possíveis;",
+                        "OBS.1: Sempre que chegar no limite de abertura, faz a volta em 5 seg. em todas as repetições;"
+                    ],
+                    "intervalo": 30,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "QUINTA",
+                "series": [
+                    "30min Esteira",
+                    "20min Bike",
+                    "Panturrilhas Pé 3x20",
+                    "Panturrilhas Sentado 3x20",
+                    "Supino Reto 3x12",
+                    "Remada Sentada 3x12",
+                    "Desenvolvimento frontal com barra 3x12",
+                    "Rosca direta no cross 3x12",
+                    "Pulley com barra 3x12",
+                    "Pracha 5xMax Tempo Int. 20s"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 30,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "SEXTA",
+                "series": [
+                    "Agachamento 8x10x12x15x20 OBS.1",
+                    "Extensora + Hack 4x12 Int. 40s",
+                    "LEGG 8x10x12x15x20 OBS.1",
+                    "Flexora + Sumô 6x8x10x12"
+                ],
+                "obs": {
+                    "legenda": ["OBS.1: Intervalo só para diminuir o peso;"],
+                    "intervalo": 40,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "SÁBADO",
+                "series": [
+                    "DIA LIVRE"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            }
+        ]
+    }
+]
