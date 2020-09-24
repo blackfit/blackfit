@@ -97,7 +97,7 @@ function montarTreino(user) {
     // add > data.getDay() semana
 
     const { id, aluno, semana } = user
-    const { dia, series, obs } = semana[3]
+    const { dia, series, obs } = semana[data.getDay()]
     document.getElementById("dia").textContent = `${dia} -`;
     document.getElementById("aluno").textContent = `${aluno.toUpperCase()}`;
 
