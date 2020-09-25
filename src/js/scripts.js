@@ -1,4 +1,4 @@
-const requestURL = 'exampleAPI/dados.json';
+const requestURL = 'src/exampleAPI/dados.json';
 const request = new XMLHttpRequest();
 
 window.onload = function () {
@@ -9,12 +9,21 @@ window.onload = function () {
 
     const cpf = document.getElementById("cpf");
     const busca = document.getElementById("pesquisa");
+    const sair = document.getElementById("aluno");
+
+    console.log(sair);
 
     const maskOptions = {
         mask: '000.000.000-00'
     };
 
     const maskCpf = IMask(cpf, maskOptions);
+
+    sair.addEventListener("click", () => {
+        console.log("click");
+        localStorage.removeItem("id");
+        document.location.reload(true);
+    });
 
     busca.addEventListener("click", () => {
         carregarTreino(maskCpf.unmaskedValue);
@@ -94,7 +103,6 @@ function salvarBrowser(cpf){
 function montarTreino(user) {
 
     const data = new Date(); 
-    // add > data.getDay() semana
 
     const { id, aluno, semana } = user
     const { dia, series, obs } = semana[data.getDay()]
@@ -150,9 +158,13 @@ function montarTreino(user) {
         ol.appendChild(elementLi);
     }
 
-    let elementLi = document.createElement("li");
-    let textLi = document.createTextNode(`Intervalo de ${obs.intervalo} segundos entre os exercícios;`);
+    if ( obs.intervalo ) {
+        let elementLi = document.createElement("li");
+        let textLi = document.createTextNode(`Intervalo de ${obs.intervalo} segundos entre os exercícios;`);
 
-    elementLi.appendChild(textLi);
-    ol.appendChild(elementLi);
+        elementLi.appendChild(textLi);
+        ol.appendChild(elementLi);
+    }
+
+    
 }

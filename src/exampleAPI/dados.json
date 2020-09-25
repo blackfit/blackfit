@@ -164,11 +164,13 @@
             {
                 "dia": "QUARTA",
                 "series": [
-                    "Avanço Alternado no Smith 4x10 + Abdução em Posição de Agachamento C.L",
+                    "Avanço alternado no Smith 4x10 C.L",
+                    "Abdução em posição de agachamento C.L",
                     "Extensão de quadril em pé no. Cross com Caneleira 4x10",
-                    "Sumô no LEGG 3x10 + Sumô com halteres R.P",
+                    "Sumô no LEGG 3x10",
+                    "Sumô com halteres R.P",
                     "Glúteo Nadador 3xFalhas Int. 20s",
-                    "Abdução 4x10 OBS.1",
+                    "Abdução 4x10 com isometria de 3s OBS.1",
                     "Glúteo 3 apoios com pernas cruzadas 4x10",
                     "10min caminhada em avanço"
                 ],
@@ -176,7 +178,7 @@
                     "legenda": [
                         "C.L: Cada Lado;",
                         "R.P: Repetições parciais o máximo de repetições possíveis;",
-                        "OBS.1: Abdução com isometria de 3s, sempre que chegar no limite de abertura, faz a volta em 5s, todas as repetições;"
+                        "OBS.1: Sempre que chegar no limite de abertura, faz a volta em 5 seg. em todas as repetições;"
                     ],
                     "intervalo": 30,
                     "progresso": 0
@@ -213,6 +215,257 @@
                 "obs": {
                     "legenda": ["OBS.1: Intervalo só para diminuir o peso;"],
                     "intervalo": 40,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "SÁBADO",
+                "series": [
+                    "DIA LIVRE"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": "08984341495",
+        "aluno": "Pedro Geovani",
+        "semana": [
+            {
+                "dia": "DOMINGO",
+                "series": [
+                    "DIA LIVRE"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "SEGUNDA",
+                "series": [
+                    "Flexões no solo 3x10",
+                    "Peck deck 5x20 IntD 45,30,20,15 seg",
+                    "Supino Inclinado + Crucifixo Inclinado 4x15 S.I",
+                    "Supino Reto Drop-Set 3x15 OBS.1",
+                    "Cross 5x20 IntD < 45,30,20,15 seg",
+                    "Elevação Frontal com Halteres 1x50",
+                    "Elevação Frontal com Barra no Cross, Drop-Slow 3x15 + 5 Repetições Slow OBS.2",
+                    "Desenvolvimento Frontal com Halteres 4x20 IntD entre as séries 30,20,15 seg",
+                    "Elevação Lateral + Remada Alta com Pegada Aberta 4x15 S.I"
+                ],
+                "obs": {
+                    "legenda": [
+                        "IntD: Intervalo Decrescente", 
+                        "S.I: Sem Intervalo", 
+                        "OBS.1: Após a última série, diminui a carga e continua até a falha concêntrica, quando chegar a falha. VC dropa mais uma vez.",
+                        "OBS.GERAL: Alonga o peito no intervalo de cada série.",
+                        "OBS.2: Após 15 repetições reduz a carga e faz + 5 repetições com cadencia 4x4 intervalo de 40 segundos entre as séries."
+                    ],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "TERÇA",
+                "series": [
+                    "Agachamento sem Peso 3x20",
+                    "Agachamento 8,10,12,15,20 IntDP",
+                    "Extensora + Hack 4x15 Int. 40seg",
+                    "LEGG 8,10,12,15,20 IntDP",
+                    "Supino Reto 3x12",
+                    "Flexora + Sumô 3x15 Sem Int",
+                    "10min Caminhada em Avanço"
+                ],
+                "obs": {
+                    "legenda": [
+                        "IntDP: Intervalo só para diminuir o peso."
+                    ],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "QUARTA",
+                "series": [
+                    "Barra no Gráviton 5x15 + Pulldown com barra IntMAX 1min.",
+                    "Puxador Pegada Fechada 4x15 OBS.1",
+                    "Remada Curvada 4x15",
+                    "Serrote no Cross 10,12,15,20",
+                    "Remada Sentado Pegada Fechada 8,10,12,15,20 Int 30seg",
+                    "Peck Deck Inverso + Encolhimento de Ombro com Halteres 4x15 S.I",
+                    "Barra fixa no graviton pegada inversa 4x MRP"
+                ],
+                "obs": {
+                    "legenda": [
+                        "IntMAX: Intervalo Máximo;",
+                        "OBS.1: Drop com a mesma carga intervalo de 40 segundos;",
+                        "S.I: Sem Intervalo;",
+                        "MRP: Máximo de Repetições Possíveis;"
+                    ],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "QUINTA",
+                "series": [
+                    "Rosca Direta com Halteres + Rosca Cruz 4x15 S.I",
+                    "Banco Scott Unilateral 3x15 OBS.1",
+                    "Banco Scott com Barra 3x6 OBS.2",
+                    "Rosca Direta no Cross 6,8,10,12,15,20 Int 20seg",
+                    "Pulley com Corda + Extensão de Braços no Banco ou Graviton 4x15 S.I",
+                    "Pulley Unilateral Pegada Inversa 1x50",
+                    "Extensão de Braços Unilateral Deitado 4x15",
+                    "Pulley com Barra 6,8,10,12,15,20 Int 20seg",
+                    "Rosca Punho com Halteres 3x15 OBS.1",
+                    "Rosca Punho Inversa com Barra 3x15 Int 20seg"
+                ],
+                "obs": {
+                    "legenda": [
+                        "S.I: Sem Intervalo;",
+                        "OBS.1: Sem Intervalo de um braço para o outro;",
+                        "OBS.2: Repetições Slow com Cadência 4x4;"
+                        ],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "SEXTA",
+                "series": [
+                    "DIA LIVRE"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "SÁBADO",
+                "series": [
+                    "DIA LIVRE"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": "10753255790",
+        "aluno": "Joyce Medeiros",
+        "semana": [
+            {
+                "dia": "DOMINGO",
+                "series": [
+                    "DIA LIVRE"
+                ],
+                "obs": {
+                    "legenda": ["Sem observações de treino..."],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "SEGUNDA",
+                "series": [
+                    "Simulador de Escada 20 min",
+                    "Extensora Pré-Exaustão de Quadríceps 8,10,12,15,20 Int 30seg",
+                    "Agachamento no Smith 3x8,10,12,15 Fase Excêntrica em 4seg",
+                    "LEGG 5x20 IntD 45,30,20,15 seg",
+                    "Avanço Búlgaro 4x15 OBS.1",
+                    "Extensão de Quadril no Cross + Abdução no Cross 4x15 OBS.2"
+                ],
+                "obs": {
+                    "legenda": [
+                        "IntD: Intervalo Decrescente;", 
+                        "OBS.1: Intervalo de 20 seg em cada perna;",
+                        "OBS.2: Intervalo de 20 seg entre as e execuções em cada perna;"
+                    ],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "TERÇA",
+                "series": [
+                    "Simulador de Caminhada 30min",
+                    "Panturrilhas em Pé e Sentado 3x20",
+                    "Supino Reto 4x15",
+                    "Desenvolvimento Frontal com Barra 4x15",
+                    "Rosca Direta no Cross 4x15",
+                    "Pulley com Barra 4x15",
+                    "Prancha 6xMTP Int 20seg"
+                ],
+                "obs": {
+                    "legenda": ["MTP: Máximo de Tempo Possível;"],
+                    "intervalo": 30,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "QUARTA",
+                "series": [
+                    "Simulador de Escada 20 min",
+                    "Extensora Pré-Exaustão de Quadríceps 8,10,12,15,20 Int 30seg",
+                    "Agachamento no Smith 3x8,10,12,15 Fase Excêntrica em 4seg",
+                    "LEGG 5x20 IntD 45,30,20,15 seg",
+                    "Avanço Búlgaro 4x15 OBS.1",
+                    "Extensão de Quadril no Cross + Abdução no Cross 4x15 OBS.2"
+                ],
+                "obs": {
+                    "legenda": [
+                        "IntD: Intervalo Decrescente;", 
+                        "OBS.1: Intervalo de 20 seg em cada perna;",
+                        "OBS.2: Intervalo de 20 seg entre as e execuções em cada perna;"
+                    ],
+                    "intervalo": 0,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "QUINTA",
+                "series": [
+                    "Simulador de Caminhada 30min",
+                    "Panturrilhas em Pé e Sentado 3x20",
+                    "Supino Reto 4x15",
+                    "Desenvolvimento Frontal com Barra 4x15",
+                    "Rosca Direta no Cross 4x15",
+                    "Pulley com Barra 4x15",
+                    "Prancha 6xMTP Int 20seg"
+                ],
+                "obs": {
+                    "legenda": ["MTP: Máximo de Tempo Possível;"],
+                    "intervalo": 30,
+                    "progresso": 0
+                }
+            },
+            {
+                "dia": "SEXTA",
+                "series": [
+                    "Simulador de Escada 20 min",
+                    "Extensora Pré-Exaustão de Quadríceps 8,10,12,15,20 Int 30seg",
+                    "Agachamento no Smith 3x8,10,12,15 Fase Excêntrica em 4seg",
+                    "LEGG 5x20 IntD 45,30,20,15 seg",
+                    "Avanço Búlgaro 4x15 OBS.1",
+                    "Extensão de Quadril no Cross + Abdução no Cross 4x15 OBS.2"
+                ],
+                "obs": {
+                    "legenda": [
+                        "IntD: Intervalo Decrescente;", 
+                        "OBS.1: Intervalo de 20 seg em cada perna;",
+                        "OBS.2: Intervalo de 20 seg entre as e execuções em cada perna;"
+                    ],
+                    "intervalo": 0,
                     "progresso": 0
                 }
             },

@@ -288,3 +288,11 @@ i {
 #legenda { list-style-type: none }
 
 .busca button:focus { outline: 0 }
+
+#aluno {
+    cursor: pointer;
+}
+
+#aluno::selection {
+    color: #ccc;
+}

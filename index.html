@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULAS</title>
+    <link rel="stylesheet" href="src/styles/estilo.css?1234">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="src/js/scripts.js?1234"></script>
+    <script src="https://unpkg.com/imask"></script>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="conteudo">
+            <h1>Vamos treinar...</h1>
+            <p>Basta entrar com seu CPF e seu treino do dia, estará totalmente disponível para você. Bora?</p>
+            <div class="busca">
+
+                <input type="text" name="cpf" placeholder="111.111.111-11" id="cpf">
+               <button id="pesquisa">
+                    <i class="material-icons">search</i>
+               </button>
+                
+            </div>
+        </div>
+    </div>
+    
+    <main class="view" style="display: none">
+        <div id="corpo">
+            <h1> TREINO <span id="dia">DIA</span> <span id="aluno" style="color: green">X</span> </h1>
+            <ul class="treino">
+
+            </ul>
+            <div id="obs">
+                <ul id="legenda">
+                </ul>
+            </div>
+        </div>
+    </main>
+    <div class="progress-bar" style="display: none">
+        <span class="bar">
+            <span class="progress" style="padding: 0.01px"></span>
+        </span>
+    </div>
+</body>
+
+</html>
