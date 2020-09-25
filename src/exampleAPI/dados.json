@@ -339,10 +339,24 @@
             {
                 "dia": "SEXTA",
                 "series": [
-                    "DIA LIVRE"
+                    "Flexões no solo 3x10",
+                    "Peck Deck 5x20 IntD 45,30,20,15 seg",
+                    "Supino Inclinado + Crucifixo Inclinado 4x15 S.I",
+                    "Supino Reto Drop-Set 3x15 OBS.1",
+                    "Cross 5x20 IntD < 45,30,20,15 seg",
+                    "Elevação Frontal com Halteres 1x50",
+                    "Elevação Frontal com Barra no Cross, Drop-Slow 3x15 + 5 Repetições Slow OBS.2",
+                    "Desenvolvimento Frontal com Halteres 4x20 IntD entre as séries 30,20,15 seg",
+                    "Elevação Lateral + Remada Alta com Pegada Aberta 4x15 S.I"
                 ],
                 "obs": {
-                    "legenda": ["Sem observações de treino..."],
+                    "legenda": [
+                        "IntD: Intervalo Decrescente", 
+                        "S.I: Sem Intervalo", 
+                        "OBS.1: Após a última série, diminui a carga e continua até a falha concêntrica, quando chegar a falha. VC dropa mais uma vez.",
+                        "OBS.GERAL: Alonga o peito no intervalo de cada série.",
+                        "OBS.2: Após 15 repetições reduz a carga e faz + 5 repetições com cadencia 4x4 intervalo de 40 segundos entre as séries."
+                    ],
                     "intervalo": 0,
                     "progresso": 0
                 }
@@ -472,10 +486,18 @@
             {
                 "dia": "SÁBADO",
                 "series": [
-                    "DIA LIVRE"
+                    "Agachamento sem Peso 3x20",
+                    "Agachamento 8,10,12,15,20 IntDP",
+                    "Extensora + Hack 4x15 Int. 40seg",
+                    "LEGG 8,10,12,15,20 IntDP",
+                    "Supino Reto 3x12",
+                    "Flexora + Sumô 3x15 Sem Int",
+                    "10min Caminhada em Avanço"
                 ],
                 "obs": {
-                    "legenda": ["Sem observações de treino..."],
+                    "legenda": [
+                        "IntDP: Intervalo só para diminuir o peso."
+                    ],
                     "intervalo": 0,
                     "progresso": 0
                 }
