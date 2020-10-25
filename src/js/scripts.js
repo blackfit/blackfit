@@ -2,9 +2,6 @@ const requestURL = 'src/exampleAPI/dados.json';
 const request = new XMLHttpRequest();
 
 window.onload = function () {
-    // BLOCO DE IF PARA ADICIONAR O TREINO DO DIA A PARTIR DA API
-
-
     if(localStorage.id) return carregarTreino(localStorage.id);
 
     const cpf = document.getElementById("cpf");
@@ -132,8 +129,6 @@ function montarTreino(user) {
 
         spanText.appendChild(text);
         filhoTemp.appendChild(spanText);
-
-        // filhoTemp.appendChild(text);
 
         filhoTemp.appendChild(labelTemp);
 
