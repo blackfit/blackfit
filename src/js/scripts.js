@@ -1,6 +1,3 @@
-const requestURL = 'src/exampleAPI/dados.json';
-const request = new XMLHttpRequest();
-
 window.onload = function () {
     if(localStorage.id) return carregarTreino(localStorage.id);
 
@@ -26,8 +23,6 @@ window.onload = function () {
         carregarTreino(maskCpf.unmaskedValue);
     });
 };
-
-
 
 
 function desativaCampo(idElement) {
@@ -64,34 +59,31 @@ function upDownProgress(cond) {
 
 }
 
+
 function carregarTreino(cpf) {
 
-    request.open('GET', requestURL);
-    request.responseType = 'json';
-    request.send();
-    request.onload = function () {
+    axios.get(`https://blackfitapp.herokuapp.com/api/alunos/${cpf}`)
+    .then(function (response) {
 
-        const dados = JSON.parse(JSON.stringify(request.response));
-
-        const user = dados.find(user => user.id === cpf) || "not exists";
-
-        if(user === "not exists")  return alert("Este aluno não existe"); // testar no op ternario
-       
-        salvarBrowser(cpf);
-
-        const card = document.querySelector(".card");
-        const view = document.querySelector(".view");
-        const bar  = document.querySelector(".progress-bar");
+        const card = document.querySelector(".card")
+        const view = document.querySelector(".view")
+        const bar  = document.querySelector(".progress-bar")
         
-        card.remove();
-        view.removeAttribute("style");
-        bar.removeAttribute("style");
-        
-        montarTreino(user);
-        
-    }
+        card.remove()
+        view.removeAttribute("style")
+        bar.removeAttribute("style")
 
+        console.log(response.data)
+        
+        montarTreino(response.data);
+
+    })
+    .catch(function (error) {
+        console.log(error)
+        return alert("Este aluno não existe")
+    })
 }
+
 
 function salvarBrowser(cpf){
     localStorage.setItem('id', cpf);
@@ -101,14 +93,15 @@ function montarTreino(user) {
 
     const data = new Date(); 
 
-    const { id, aluno, semana } = user
-    const { dia, series, obs } = semana[data.getDay()]
+    const { cpf, nome, semana } = user
+    const { dia, serie, obs } = semana[data.getDay()]
+
     document.getElementById("dia").textContent = `${dia} -`;
-    document.getElementById("aluno").textContent = `${aluno.toUpperCase()}`;
+    document.getElementById("aluno").textContent = `${nome.toUpperCase()}`;
 
     const raiz = document.querySelector(".treino");
 
-    for (let i in series) {
+    for (let i in serie) {
 
         let filhoTemp = document.createElement("li");
 
@@ -125,7 +118,7 @@ function montarTreino(user) {
         filhoTemp.setAttribute("id", endId);
 
         let spanText = document.createElement("span");
-        let text = document.createTextNode(series[i]);
+        let text = document.createTextNode(serie[i]);
 
         spanText.appendChild(text);
         filhoTemp.appendChild(spanText);
@@ -161,5 +154,4 @@ function montarTreino(user) {
         ol.appendChild(elementLi);
     }
 
-    
 }
