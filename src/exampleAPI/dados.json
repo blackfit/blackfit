@@ -249,23 +249,23 @@
             {
                 "dia": "SEGUNDA",
                 "series": [
-                    "Flexões no solo 3x10",
-                    "Peck Deck 5x20 IntD 45,30,20,15 seg",
-                    "Supino Inclinado + Crucifixo Inclinado 4x15 S.I",
-                    "Supino Reto Drop-Set 3x15 OBS.1",
-                    "Cross 5x20 IntD < 45,30,20,15 seg",
-                    "Elevação Frontal com Halteres 1x50",
-                    "Elevação Frontal com Barra no Cross, Drop-Slow 3x15 + 5 Repetições Slow OBS.2",
-                    "Desenvolvimento Frontal com Halteres 4x20 IntD entre as séries 30,20,15 seg",
-                    "Elevação Lateral + Remada Alta com Pegada Aberta 4x15 S.I"
+                    "Cross 1x50",
+                    "Supino Reto 10,8,8,6,6",
+                    "Crucifixo Inclinado 1x50",
+                    "Supino Inclinado 10,8,8,6,6",
+                    "Paralelas 5 falhas",
+                    "Elevação frontal + Elevação Lateral + Crucifixo Inverso OBS.1 / OBS.2",
+                    "Desenvolvimento Frontal com Barra 8x8 Int 40 seg entre cada série",
+                    "Tríceps Pulley com corda  1x50",
+                    "Pulley com barra 8x8",
+                    "Intervalo de 30seg",
+                    "Pulley unilateral pegada inverso 1x50"
                 ],
                 "obs": {
                     "legenda": [
-                        "IntD: Intervalo Decrescente", 
-                        "S.I: Sem Intervalo", 
-                        "OBS.1: Após a última série, diminui a carga e continua até a falha concêntrica, quando chegar a falha. VC dropa mais uma vez.",
-                        "OBS.GERAL: Alonga o peito no intervalo de cada série.",
-                        "OBS.2: Após 15 repetições reduz a carga e faz + 5 repetições com cadencia 4x4 intervalo de 40 segundos entre as séries."
+                        "OBS.1: 1X50 em cada exercício", 
+                        "OBS.2: Usar carga que permita 50 rep sem pausa, porém que faça a musculatura sentir o estímulo", 
+                        "OBS.GERAL: Aplicar potenay nos tríceps metade de meio ml em cada parte dos tríceps",
                     ],
                     "intervalo": 0,
                     "progresso": 0
@@ -315,23 +315,24 @@
             {
                 "dia": "QUINTA",
                 "series": [
-                    "Rosca Direta com Halteres + Rosca Cruz 4x15 S.I",
-                    "Banco Scott Unilateral 3x15 OBS.1",
-                    "Banco Scott com Barra 3x6 OBS.2",
-                    "Rosca Direta no Cross 6,8,10,12,15,20 Int 20seg",
-                    "Pulley com Corda + Extensão de Braços no Banco ou Graviton 4x15 S.I",
-                    "Pulley Unilateral Pegada Inversa 1x50",
-                    "Extensão de Braços Unilateral Deitado 4x15",
-                    "Pulley com Barra 6,8,10,12,15,20 Int 20seg",
-                    "Rosca Punho com Halteres 3x15 OBS.1",
-                    "Rosca Punho Inversa com Barra 3x15 Int 20seg"
+                    "Cross 1x50",
+                    "Supino Reto 10,8,8,6,6",
+                    "Crucifixo Inclinado 1x50",
+                    "Supino Inclinado 10,8,8,6,6",
+                    "Paralelas 5 falhas",
+                    "Elevação frontal + Elevação Lateral + Crucifixo Inverso OBS.1 / OBS.2",
+                    "Desenvolvimento Frontal com Barra 8x8 Int 40 seg entre cada série",
+                    "Tríceps Pulley com corda  1x50",
+                    "Pulley com barra 8x8",
+                    "Intervalo de 30seg",
+                    "Pulley unilateral pegada inverso 1x50"
                 ],
                 "obs": {
                     "legenda": [
-                        "S.I: Sem Intervalo;",
-                        "OBS.1: Sem Intervalo de um braço para o outro;",
-                        "OBS.2: Repetições Slow com Cadência 4x4;"
-                        ],
+                        "OBS.1: 1X50 em cada exercício", 
+                        "OBS.2: Usar carga que permita 50 rep sem pausa, porém que faça a musculatura sentir o estímulo", 
+                        "OBS.GERAL: Aplicar potenay nos tríceps metade de meio ml em cada parte dos tríceps",
+                    ],
                     "intervalo": 0,
                     "progresso": 0
                 }
