@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THIAGO BLACKFIT</title>
+  <link rel="stylesheet" href="src/styles/estilo.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="src/js/admin.js"></script>
+  <script src="https://unpkg.com/imask"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+  <div class="card-admin" style="display: none">
+    <div class="conteudo">
+      <h1>Fala, Thiago!</h1>
+      <p>Tá na hora de gerenciar a vida fit dos alunos. Bora?</p>
+      <div class="busca">
+
+        <input type="text" name="cpf" placeholder="111.111.111-11" id="cpf">
+        <button id="pesquisa">
+          <i class="material-icons">search</i>
+        </button>
+
+      </div>
+    </div>
+  </div>
+
+  <main class="admin">
+
+    <nav> 
+      <p>GERENCIE OS ALUNOS</p>
+      <a href="criar.html" style="margin-left: 30px">NOVO ALUNO</a>
+    </nav>
+
+    
+  </main>
+
+  <div class="alunos" style="display: none">
+
+    <div class="aluno">
+
+      <p>NOME: $NOME</p>
+      <p>SÉRIE DO DIA: $SERIE</p>
+      <p>PROGRESSO DO DIA: 0</p>
+      <a href="#">Editar</a>
+      <a href="#">Excluir</a>
+
+    </div>
+
+  </div>
+
+  <main class="view" style="display: none">
+    <div id="corpo">
+      <h1> TREINO <span id="dia">DIA</span> <span id="aluno" style="color: green">X</span> </h1>
+      <ul class="treino">
+
+      </ul>
+      <div id="obs">
+        <ul id="legenda">
+        </ul>
+      </div>
+    </div>
+  </main>
+  <div class="progress-bar" style="display: none">
+    <span class="bar">
+      <span class="progress" style="padding: 0.01px"></span>
+    </span>
+  </div>
+</body>
+
+</html>
