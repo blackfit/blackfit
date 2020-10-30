@@ -1,23 +1,13 @@
 window.onload = function () {
-    if(localStorage.id) return carregarTreino(localStorage.id);
 
     const cpf = document.getElementById("cpf");
     const busca = document.getElementById("pesquisa");
-    const sair = document.getElementById("aluno");
-
-    console.log(sair);
 
     const maskOptions = {
         mask: '000.000.000-00'
     };
 
     const maskCpf = IMask(cpf, maskOptions);
-
-    sair.addEventListener("click", () => {
-        console.log("click");
-        localStorage.removeItem("id");
-        document.location.reload(true);
-    });
 
     busca.addEventListener("click", () => {
         carregarTreino(maskCpf.unmaskedValue);

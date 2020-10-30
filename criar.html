@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THIAGO BLACKFIT</title>
+  <link rel="stylesheet" href="src/styles/estilo.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="src/js/admin.js"></script>
+  <script src="https://unpkg.com/imask"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+  <div class="criacao">
+
+    <h1>Cadastro</h1>
+
+    <label for="cpf">CPF do Aluno</label>
+    <input type="text" name="cpf" id="cpf" placeholder="xxx.xxx.xxx-xx">
+
+
+    <label for="nome">Nome do Aluno</label>
+    <input type="text" name="nome" id="nome" placeholder="Nome do aluno">
+
+
+
+  </div>
+
+  <div class="semana">
+    <button class="seg" onclick="definirDia('seg')">SEGUNDA</button>
+    <button onclick="definirDia('ter')">TERÇA</button>
+    <button onclick="definirDia('qua')">QUARTA</button>
+    <button onclick="definirDia('qui')">QUINTA</button>
+    <button onclick="definirDia('sex')">SEXTA</button>
+    <button onclick="definirDia('sab')">SÁBADO</button>
+    <button onclick="definirDia('dom')">DOMINGO</button>
+  </div>
+
+
+  <div class='acoes'>
+
+    <button id="novo" onclick="novoCampo()">
+      <i class="material-icons">search</i>
+    </button>
+
+    <button id="nova" onclick="novaLegenda()">
+      <i class="material-icons" style="color: green">search</i>
+    </button>
+
+    <button id="nova" onclick="novaLegenda()">
+      <i class="material-icons" style="color: red">search</i>
+    </button>
+
+  </div>
+
+
+  <div class="treino">
+
+    <div class="so-treino">
+      <input type="text" class="treinos" name="treino-0" id="treino-0" placeholder="Digite o treino">
+    </div>
+
+    <div class="so-legendas">
+      <input type="text" class="legendas" name="legenda-0" id="legenda-0" placeholder="Digite a legenda">
+    </div>
+
+  </div>
+
+</body>
+
+</html>
