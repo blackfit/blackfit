@@ -36,11 +36,11 @@ main {
     border-bottom: 1px solid #ccc;
 }
 
-.treino {
+.treino-aluno {
     margin: 10px 0;
 }
 
-.treino li {
+.treino-aluno li {
     list-style-type: none; 
 
     font-weight: bold;
@@ -56,12 +56,16 @@ main {
     justify-content: space-between;
 }
 
-.treino li:hover {
+.treino-aluno li:hover {
     color: #242323;
     transition: all 0.3s ease-in-out;
 }
 
-.treino li > span {
+.treino-aluno li.selected {
+    color: #7A7A7A;
+}
+
+.treino-aluno li > span {
     font-size: 1rem;
 }
 
@@ -322,11 +326,15 @@ i {
 .aluno {
     margin-top: 10px;
     width: 300px;
-    height: 300px;
+    height: 100px;
     background: #ebebeb;
     border: 1px solid #c9c5c5;
     border-radius: 4px;
     padding: 20px;
+}
+
+.aluno a {
+    margin-right: 10px;
 }
 
 
