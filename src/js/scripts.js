@@ -110,7 +110,7 @@ function montarTreino(user) {
     const { cpf, nome, semana } = user
     const { dia, serie, legenda } = semana[data.getDay()]
 
-   salvarBrowser(cpf, dia)
+   salvarBrowser(cpf, data.getDay())
 
     document.getElementById("dia").textContent = `${dia} -`
     document.getElementById("aluno").textContent = `${nome.toUpperCase()}`
