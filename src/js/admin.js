@@ -24,7 +24,7 @@ window.onload = function () {
 
 
 function redirecionarInicio(){
-  window.location.href = "http://127.0.0.1:5500/admin.html"
+  window.location.href = "http://blackfit.github.io/admin.html"
 }
 
 function pageAdmin() {
