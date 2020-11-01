@@ -41,11 +41,8 @@ function pageAdmin() {
 
 
   axios.get(`https://blackfitapp.herokuapp.com/api/alunos`)
-  .then(function (response) {
-
-      console.log(response.data)
-      
-      // montarTreino(response.data);
+  .then(function (response) {  
+      startHome(response.data);
   })
   .catch(function (error) {
       console.log(error)
@@ -55,6 +52,59 @@ function pageAdmin() {
 
 
 }
+
+
+function startHome(data) {
+
+  const pai = document.querySelector('.alunos')
+
+  const dia = new Date().getDay()
+
+  for(let aluno of data) {
+
+    let classAluno = document.createElement('div')
+    classAluno.setAttribute('class', 'aluno')
+
+    let nomeAlunoElement = document.createElement('p')
+    let nomeAlunoText    = document.createTextNode(`Aluno: ${aluno.nome}`)
+
+    nomeAlunoElement.appendChild(nomeAlunoText)
+    classAluno.appendChild(nomeAlunoElement)
+
+    let progressoAlunoElement = document.createElement('p')
+    let progressoAlunoText    = document.createTextNode(`PROGRESSO DO DIA: ${aluno.semana[dia].progresso}%`)
+
+    progressoAlunoElement.appendChild(progressoAlunoText)
+    classAluno.appendChild(progressoAlunoElement)
+
+
+    /* ACOES */
+
+    let editarAlunoAncora = document.createElement('a')
+    editarAlunoAncora.setAttribute('onclick', `editarAluno('${aluno.cpf}')`)
+    editarAlunoAncora.setAttribute('href', '#void')
+    let editarAlunoText = document.createTextNode('Editar')
+    editarAlunoAncora.appendChild(editarAlunoText)
+
+    classAluno.appendChild(editarAlunoAncora)
+
+    let excluirAlunoAncora = document.createElement('a')
+    excluirAlunoAncora.setAttribute('onclick', `excluirAluno('${aluno.cpf}')`)
+    excluirAlunoAncora.setAttribute('href', '#void')
+    let excluirAlunoText = document.createTextNode('Excluir')
+    excluirAlunoAncora.appendChild(excluirAlunoText)
+
+    classAluno.appendChild(excluirAlunoAncora)
+
+    pai.appendChild(classAluno)
+    
+  }
+
+
+}
+
+
+/* START FUNC CRIAR AULO */
 
 function concluirTreino() {
 
@@ -67,10 +117,13 @@ function concluirTreino() {
   
   console.log(`Aluno: ${nome} Cpf: ${cpf}`)
 
-  /* ====== SEGUNDA ======== */
+  
 
   if(nome && cpf) {
     
+
+    /* ====== SEGUNDA ======== */
+
     const serie_seg_exer   =  document.querySelectorAll('.so-treino-seg input')
     const legenda_seg_exer = document.querySelectorAll('.so-legendas-seg input')
 
@@ -280,3 +333,25 @@ function novaLegenda() {
   pai.appendChild(input)
 
 }
+
+
+/* END FUNC CRIAR ALUNO */
+
+
+/* STAR FUNC EXCLUIR ALUNO */
+
+function excluirAluno(id) {
+  axios.delete(`https://blackfitapp.herokuapp.com/api/alunos/${id}`)
+  .then(function (response) {
+    console.log(response)
+    return alert('Aluno deletado..')
+  })
+  .catch(function (error) {
+    console.log(error)
+  })
+  .finally(function () {
+    redirecionarInicio()
+  })
+}
+
+/* END FUNC EXCLUIR ALUNO */
