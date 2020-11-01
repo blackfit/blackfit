@@ -24,46 +24,116 @@
     <label for="nome">Nome do Aluno</label>
     <input type="text" name="nome" id="nome" placeholder="Nome do aluno">
 
-
-
   </div>
 
   <div class="semana">
-    <button class="seg" onclick="definirDia('seg')">SEGUNDA</button>
-    <button onclick="definirDia('ter')">TERÇA</button>
-    <button onclick="definirDia('qua')">QUARTA</button>
-    <button onclick="definirDia('qui')">QUINTA</button>
-    <button onclick="definirDia('sex')">SEXTA</button>
-    <button onclick="definirDia('sab')">SÁBADO</button>
-    <button onclick="definirDia('dom')">DOMINGO</button>
+    <button class="ondayactive"  onclick="definirDia('seg')">SEGUNDA</button>
+    <button class="offdayactive" onclick="definirDia('ter')">TERÇA</button>
+    <button class="offdayactive" onclick="definirDia('qua')">QUARTA</button>
+    <button class="offdayactive" onclick="definirDia('qui')">QUINTA</button>
+    <button class="offdayactive" onclick="definirDia('sex')">SEXTA</button>
+    <button class="offdayactive" onclick="definirDia('sab')">SÁBADO</button>
   </div>
-
 
   <div class='acoes'>
 
     <button id="novo" onclick="novoCampo()">
-      <i class="material-icons">search</i>
+      <i class="material-icons">add_box</i>
     </button>
 
     <button id="nova" onclick="novaLegenda()">
-      <i class="material-icons" style="color: green">search</i>
+      <i class="material-icons" style="color: blue">add_box</i>
     </button>
 
-    <button id="nova" onclick="novaLegenda()">
-      <i class="material-icons" style="color: red">search</i>
+    <button id="nova" onclick="concluirTreino()">
+      <i class="material-icons" style="color: green">send</i>
     </button>
 
   </div>
 
 
-  <div class="treino">
+  <div class="treino onday" id="seg">
 
-    <div class="so-treino">
-      <input type="text" class="treinos" name="treino-0" id="treino-0" placeholder="Digite o treino">
+
+    <p class="daystyle">TREINO SEGUNDA</p>
+
+    <div class="so-treino-seg">
+      <input type="text" class="treinos" name="treino-seg-0" id="treino-seg-0" placeholder="Digite o treino">
     </div>
 
-    <div class="so-legendas">
-      <input type="text" class="legendas" name="legenda-0" id="legenda-0" placeholder="Digite a legenda">
+    <div class="so-legendas-seg">
+      <input type="text" class="legendas" name="legenda-seg-0" id="legenda-seg-0" placeholder="Digite a legenda">
+    </div>
+
+  </div>
+
+  <div class="treino offday" id="ter">
+
+    <p class="daystyle">TREINO TERÇA</p>
+
+    <div class="so-treino-ter">
+      <input type="text" class="treinos" name="treino-ter-0" id="treino-ter-0" placeholder="Digite o treino">
+    </div>
+
+    <div class="so-legendas-ter">
+      <input type="text" class="legendas" name="legenda-ter-0" id="legenda-ter-0" placeholder="Digite a legenda">
+    </div>
+
+  </div>
+
+  <div class="treino offday" id="qua">
+
+    <p class="daystyle">TREINO QUARTA</p>
+
+    <div class="so-treino-qua">
+      <input type="text" class="treinos" name="treino-qua-0" id="treino-qua-0" placeholder="Digite o treino">
+    </div>
+
+    <div class="so-legendas-qua">
+      <input type="text" class="legendas" name="legenda-qua-0" id="legenda-qua-0" placeholder="Digite a legenda">
+    </div>
+
+  </div>
+
+  <div class="treino offday" id="qui">
+
+    <p class="daystyle">TREINO QUINTA</p>
+
+    <div class="so-treino-qui">
+      <input type="text" class="treinos" name="treino-qui-0" id="treino-qui-0" placeholder="Digite o treino">
+    </div>
+
+    <div class="so-legendas-qui">
+      <input type="text" class="legendas" name="legenda-qui-0" id="legenda-qui-0" placeholder="Digite a legenda">
+    </div>
+
+  </div>
+
+  <div class="treino offday" id="sex">
+
+    <p class="daystyle">TREINO SEXTA</p>
+
+    <div class="so-treino-sex">
+      <input type="text" class="treinos" name="treino-sex-0" id="treino-sex-0" placeholder="Digite o treino">
+    </div>
+
+    <div class="so-legendas-sex">
+      <input type="text" class="legendas" name="legenda-sex-0" id="legenda-sex-0" placeholder="Digite a legenda">
+    </div>
+
+  </div>
+
+
+  <div class="treino offday" id="sab">
+
+    <p class="daystyle">TREINO SABÁDO</p>
+
+    <div class="so-treino-sab">
+      <input type="text" class="treinos" name="treino-sab-0" id="treino-sab-0" placeholder="Digite o treino">
+    </div>
+
+    <div class="so-legendas-sab">
+      <input type="text" class="legendas" name="legenda-sab-0" id="legenda-sab-0" placeholder="Digite a legenda">
     </div>
 
   </div>

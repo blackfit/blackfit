@@ -10,7 +10,7 @@ window.onload = function () {
     const maskCpf = IMask(cpf, maskOptions);
 
     busca.addEventListener("click", () => {
-        carregarTreino(maskCpf.unmaskedValue);
+        carregarTreino(maskCpf);
     });
 };
 
@@ -55,14 +55,16 @@ function carregarTreino(cpf) {
     axios.get(`https://blackfitapp.herokuapp.com/api/alunos/${cpf}`)
     .then(function (response) {
 
-        const card = document.querySelector(".card")
-        const view = document.querySelector(".view")
-        const bar  = document.querySelector(".progress-bar")
-        
-        card.remove()
-        view.removeAttribute("style")
-        bar.removeAttribute("style")
 
+        const dpns = document.querySelectorAll('.dpn')
+
+        for(let dpn of dpns) {
+          dpn.classList.remove('dpn')
+        }
+
+        const card = document.querySelector(".card")
+        card.remove()
+ 
         console.log(response.data)
         
         montarTreino(response.data);
@@ -83,8 +85,8 @@ function montarTreino(user) {
 
     const data = new Date(); 
 
-    const { cpf, nome, semana } = user
-    const { dia, serie, obs } = semana[data.getDay()]
+    const { nome, semana } = user
+    const { dia, serie, legenda } = semana[data.getDay()]
 
     document.getElementById("dia").textContent = `${dia} -`;
     document.getElementById("aluno").textContent = `${nome.toUpperCase()}`;
@@ -124,21 +126,13 @@ function montarTreino(user) {
     }
 
     const ol = document.getElementById("legenda");
-    const legendas =  obs.legenda;
+    const legendas = legenda;
 
 
     for (let t in legendas)  {
 
         let elementLi = document.createElement("li");
         let textLi = document.createTextNode(legendas[t]);
-
-        elementLi.appendChild(textLi);
-        ol.appendChild(elementLi);
-    }
-
-    if ( obs.intervalo ) {
-        let elementLi = document.createElement("li");
-        let textLi = document.createTextNode(`Intervalo de ${obs.intervalo} segundos entre os exercícios;`);
 
         elementLi.appendChild(textLi);
         ol.appendChild(elementLi);
