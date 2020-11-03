@@ -4,6 +4,12 @@ window.onload = function () {
   const busca = document.getElementById("pesquisa");
 
 
+
+  if(localStorage.getItem('cpf')) {
+    cpf.value = localStorage.getItem('cpf')
+  }
+
+
   const maskOptions = {
     mask: '000.000.000-00'
   };
@@ -14,7 +20,7 @@ window.onload = function () {
   if(busca) {
     busca.addEventListener("click", () => {
       if (maskCpf.masked.value === '123.456.789-10') 
-        return pageAdmin()
+        return pageAdmin(maskCpf.masked.value)
       return alert('Opa, você não é o ThiagoBlackFit')
   });
   }
@@ -27,7 +33,19 @@ function redirecionarInicio(){
   window.location.href = "http://blackfit.github.io/admin.html"
 }
 
-function pageAdmin() {
+function salvarBrowser(cpf){
+  deleteBrowser()
+  localStorage.setItem('cpf', cpf)
+}
+
+function deleteBrowser(){
+  localStorage.removeItem('cpf')
+}
+
+function pageAdmin(cpf) {
+
+
+  salvarBrowser(cpf)
 
 
   const dpns = document.querySelectorAll('.dpn')

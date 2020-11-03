@@ -3,6 +3,11 @@ window.onload = function () {
     const cpf = document.getElementById("cpf");
     const busca = document.getElementById("pesquisa");
 
+
+    if(localStorage.getItem('cpf')) {
+        cpf.value = localStorage.getItem('cpf')
+    }
+
     const maskOptions = {
         mask: '000.000.000-00'
     };
